@@ -1,0 +1,43 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Kalam', cursive;
+ }
+ 
+ #handContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+ }
+ 
+ .gameButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 2rem;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .gameButton:hover {
+  background-color: #0056b3;
+ }
+ 
+ #gameContainer, #resultContainer, #scoreContainer {
+  text-align: center;
+  padding: 20px;
+ }
+ 
+ #playerChoiceLabel, #computerChoiceLabel, #playerScoreLabel, #computerScoreLabel {
+  font-weight: bold;
+ }
+
+ #resultContainer{
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  color: red;
+
+ }
